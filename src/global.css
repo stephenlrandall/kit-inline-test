@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "Computer Modern";
-	src: url("/fonts/cmunrm.woff") format("woff");
+	src: url("$lib/fonts/cmunrm.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
 }
