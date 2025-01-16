@@ -1,8 +1,5 @@
 <script>
-	import '../global.css';
     import { goto } from '$app/navigation';
-
-	export let data;
 
 	let searchValue;
 
@@ -17,9 +14,6 @@
 
 <div>
 	<a href="#/">home</a>
-	{#each data.versions as version}
-		<a href="#/{version.name}">{version.name}</a>
-	{/each}
 	<input
 		placeholder="Search..."
 		bind:value={searchValue}
@@ -38,5 +32,12 @@
 
 	a {
 		margin-right: 1rem;
+	}
+
+	:global(code) {
+		background: #0002;
+		padding: 0.15rem;
+		border-radius: 0.25rem;
+		color: darkred;
 	}
 </style>

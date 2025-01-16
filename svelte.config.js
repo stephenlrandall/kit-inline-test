@@ -5,12 +5,8 @@ const config = {
 	kit: {
 		adapter: adapter({
 			pages: 'build',
-			assets: 'build',
-			fallback: 'fallback.html'
+			assets: 'build'
 		}),
-		files: {
-			lib: "assets"
-		},
 		output: {
 			bundleStrategy: 'inline'
 		},

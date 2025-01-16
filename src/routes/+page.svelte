@@ -1,20 +1,6 @@
-<script>
-	import saturn from "$lib/saturn.jpg";
+<p><a href="#section">jump to section with <code>href="#section"</code></a> (doesn't work)</p>
 
-	export let data;
-</script>
-
-<p><a href="#local">jump to section with <code>#local</code></a></p>
-
-<p><a href="#/#local">jump to section with <code>#/#local</code></a></p>
-
-<h1>Assets</h1>
-
-<h2>Image</h2>
-<img alt="Saturn logo" src={saturn}/>
-
-<h2>Custom font</h2>
-<span class="latex-font">Computer Modern for equation numbers</span>
+<p><a href="#/#section">jump to section with <code>href="#/#section"</code></a> (works, but don't <a href="https://github.com/sveltejs/kit/issues/13318">refresh in Safari</a>!)</p>
 
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam dignissimos modi omnis expedita cum repellendus voluptatibus? Laudantium optio accusamus, praesentium eum quas vel assumenda nobis sed aliquam, facilis dolore alias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae deserunt culpa alias! Mollitia laborum voluptate corporis provident similique ipsum vitae, facere, nobis consectetur tempore, dicta iure beatae harum maxime? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo incidunt eos aut in suscipit quam a eveniet, molestias, soluta quaerat dicta doloremque ducimus accusamus mollitia aliquid similique temporibus quos fuga? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora perspiciatis laboriosam veniam amet ex praesentium itaque tenetur ipsum cupiditate ullam assumenda provident soluta voluptatibus dolorum, sit dolores sequi porro. Nostrum?</p>
 
@@ -26,8 +12,7 @@
 
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam dignissimos modi omnis expedita cum repellendus voluptatibus? Laudantium optio accusamus, praesentium eum quas vel assumenda nobis sed aliquam, facilis dolore alias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae deserunt culpa alias! Mollitia laborum voluptate corporis provident similique ipsum vitae, facere, nobis consectetur tempore, dicta iure beatae harum maxime? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo incidunt eos aut in suscipit quam a eveniet, molestias, soluta quaerat dicta doloremque ducimus accusamus mollitia aliquid similique temporibus quos fuga? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora perspiciatis laboriosam veniam amet ex praesentium itaque tenetur ipsum cupiditate ullam assumenda provident soluta voluptatibus dolorum, sit dolores sequi porro. Nostrum?</p>
 
-<h2 id="local">Local data</h2>
-{JSON.stringify(data.versions)}
+<h1 id="section">Section heading</h1>
 
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam dignissimos modi omnis expedita cum repellendus voluptatibus? Laudantium optio accusamus, praesentium eum quas vel assumenda nobis sed aliquam, facilis dolore alias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae deserunt culpa alias! Mollitia laborum voluptate corporis provident similique ipsum vitae, facere, nobis consectetur tempore, dicta iure beatae harum maxime? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo incidunt eos aut in suscipit quam a eveniet, molestias, soluta quaerat dicta doloremque ducimus accusamus mollitia aliquid similique temporibus quos fuga? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora perspiciatis laboriosam veniam amet ex praesentium itaque tenetur ipsum cupiditate ullam assumenda provident soluta voluptatibus dolorum, sit dolores sequi porro. Nostrum?</p>
 
@@ -46,9 +31,3 @@
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam dignissimos modi omnis expedita cum repellendus voluptatibus? Laudantium optio accusamus, praesentium eum quas vel assumenda nobis sed aliquam, facilis dolore alias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae deserunt culpa alias! Mollitia laborum voluptate corporis provident similique ipsum vitae, facere, nobis consectetur tempore, dicta iure beatae harum maxime? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo incidunt eos aut in suscipit quam a eveniet, molestias, soluta quaerat dicta doloremque ducimus accusamus mollitia aliquid similique temporibus quos fuga? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora perspiciatis laboriosam veniam amet ex praesentium itaque tenetur ipsum cupiditate ullam assumenda provident soluta voluptatibus dolorum, sit dolores sequi porro. Nostrum?</p>
 
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam dignissimos modi omnis expedita cum repellendus voluptatibus? Laudantium optio accusamus, praesentium eum quas vel assumenda nobis sed aliquam, facilis dolore alias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae deserunt culpa alias! Mollitia laborum voluptate corporis provident similique ipsum vitae, facere, nobis consectetur tempore, dicta iure beatae harum maxime? Alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo incidunt eos aut in suscipit quam a eveniet, molestias, soluta quaerat dicta doloremque ducimus accusamus mollitia aliquid similique temporibus quos fuga? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora perspiciatis laboriosam veniam amet ex praesentium itaque tenetur ipsum cupiditate ullam assumenda provident soluta voluptatibus dolorum, sit dolores sequi porro. Nostrum?</p>
-
-<style>
-	img {
-		height: 300px;
-	}
-</style>
