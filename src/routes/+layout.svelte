@@ -4,11 +4,11 @@
 	let searchValue;
 
 	function handleInput(ev) {
-		if (ev?.key !== "Enter")
+		if (ev?.key !== 'Enter')
 			return;
 
 		goto(`?q=${encodeURIComponent(searchValue)}#/search`);
-		searchValue = "";
+		searchValue = '';
 	}
 </script>
 
