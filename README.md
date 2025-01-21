@@ -5,5 +5,6 @@ Outside of the [documentation issues](https://github.com/sveltejs/kit/issues/132
 - ~~[404 errors in Safari when refreshing a page with a "real" hash](https://github.com/sveltejs/kit/issues/13318)~~
 	- [fixed](https://github.com/sveltejs/kit/pull/13321)
 - [An inability to clear `searchParams` on typical navigation](https://github.com/sveltejs/kit/issues/13319)
-- [An inability to use page-relative "real" hashes to jump to a different part of the page](https://github.com/sveltejs/kit/issues/13320)
+- ~~[An inability to use page-relative "real" hashes to jump to a different part of the page](https://github.com/sveltejs/kit/issues/13320)~~
+	- [fixed](https://github.com/sveltejs/kit/pull/13356)
 - [Not all `load` functions are re-run on user changes to the URL](https://github.com/sveltejs/kit/issues/13322)
